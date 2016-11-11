@@ -1,3 +1,11 @@
+<% if !user_signed_in? %>
+  <div class="jumbotron">
+    <h1>Your Fav Flicks Reviewed</h1>
+    <p>Like anybody really takes reviews seriously ;)</p>
+    <p><%= link_to "Sign Up to Write a Review", new_user_registration_path, class: "btn btn-primary btn-lg" %></p>
+  </div>
+<% end %>
+
 <div class="row">
   <% @movies.each do |movie| %>
     <div class="col-sm-6 col-md-3">
