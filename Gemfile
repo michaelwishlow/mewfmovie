@@ -29,7 +29,7 @@ gem 'paperclip', '~> 4.2'
 
 gem 'bootstrap-sass', '~> 3.2', '>= 3.2.0.2'
 
-gem 'searchkick', '~> 0.8.3'
+gem 'searchkick', '~> 1.4'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
